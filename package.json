@@ -1,0 +1,22 @@
+{
+  "name": "fusion-socket-io-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "bundle": "npx webpack --entry ./src/src.js --output ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fusioncharts": "^3.14.0-sr.1",
+    "pubnub": "^4.25.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.8",
+    "webpack": "^4.39.3"
+  }
+}
