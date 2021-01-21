@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "fusioncharts": "^3.14.0-sr.1",
     "pubnub": "^4.25.2",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.8",
